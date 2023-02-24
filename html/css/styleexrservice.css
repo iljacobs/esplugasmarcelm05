@@ -1,0 +1,62 @@
+/* ARTICULO 1 */
+
+article{
+    display: flex;
+    flex-shrink: 2;
+}
+
+article section{
+    display: inline-flex;
+    width: 40%;
+    margin: 5%;
+}
+
+article img{
+    width: 100%;
+    border-radius: 10px;
+    max-height: 355px;
+}
+
+.sect1{
+    background-color: #447AB9;
+    border-radius: 10px;
+}
+.sect1 p{
+    padding: 14%;
+    text-align: justify;
+}
+
+/* SECCION 4 */
+
+#art4 section{
+    background-color: #447AB9;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 20px;
+    width: 30%;
+    padding: 10px;
+}
+
+#art4 img{
+    height: 180px;
+    width: 180px;
+    display: block;
+    padding: 11px;
+    padding-top: 50px;
+}
+
+#art4 h2{
+    display: block;
+    color: #FEF265;
+    font-family: "Overseer";
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    margin: 0px;
+}
+
+#art4 p{
+    display: block;
+    text-align: justify;
+    padding: 10px;
+    font-size: 0.9em;
+}

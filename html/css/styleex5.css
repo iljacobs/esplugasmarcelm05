@@ -1,0 +1,109 @@
+/* Paleta de colores: 
+    Azul -->
+    - #325886
+    - #447AB9
+    - #82A7D6
+    Amarillo -->
+    - #FEF265
+    - #FCE8A4
+    - #FEEED4 
+*/
+
+/* FUENTES */
+@font-face {
+    font-family: "Overseer";
+    src:local("Overseer"), url(../fonts/Overseer/Overseer.otf);
+}
+
+/* GLOBAL */
+
+body {
+    /* height: 750px; */
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/fondo1.png);
+    background-color: #82A7D6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scrollbar-width: none;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    height: 600px;
+}
+#section1 img {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 10%;
+}
+
+header h1 {
+    color: #FEF265;
+    text-align: center;
+    font-family: "Overseer";
+    letter-spacing: 0.2em;
+    font-size: 6em;
+    padding-top: 22%;
+    vertical-align: middle;
+    text-shadow: 2px 2px #ff0000;
+    margin: 0px;
+}
+
+section p{
+    text-align: center;
+    color: #FEEED4;
+    font-size: 1.4em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 900;
+}
+
+/* SECCIONES */
+
+/* #section2{
+    border-radius: 15px;
+     background-color: #4075B5;
+}*/
+
+#section1, #section2{
+    width: 45%;
+    padding: 100px;
+    margin: 0px;
+    height: 92%;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+nav ul li a {
+    color: #FEEED4;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6em;
+}
+
+nav ul li a:hover {
+    color: #FCE8A4;
+}
+
+/* CONTINUACION */
+
+
+
+
+
+
+

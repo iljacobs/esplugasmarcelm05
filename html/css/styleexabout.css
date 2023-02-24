@@ -1,0 +1,135 @@
+/* Fuente */
+@font-face {
+    font-family: "Overseer";
+    src:local("Overseer"), url(../fonts/Overseer/Overseer.otf);
+}
+
+/* articulo */
+h1{
+    text-shadow: 2px 2px #ff0000;
+    text-align: center;
+    vertical-align: middle;
+    color: #FEF265;
+    font-family: "Overseer";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+}
+
+p{
+    /* text-align: justify; */
+    color: #FEEED4;
+    font-size: 1em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+}
+
+article section{
+    margin: 0px;
+}
+
+article section h2{
+    color: #FEF265;
+    font-family: "Overseer";
+    letter-spacing: 0.2em;
+    font-size: 4em;
+}
+
+article{
+    margin-bottom: 300px;
+}
+
+/* ARTICLE 1 */
+
+
+#section1{
+    width: 80%;
+    background-color: #447AB9;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 70px 0px 70px 0px;
+    margin-top: 200px;
+}
+
+#section1 h2{
+    margin-top: 0px;
+    text-align: center;
+    /* padding-top: 20px; */
+}
+
+#section1 p{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    color: #FEEED4;
+    font-weight: 600;
+}
+
+/* ARTICLE 2 */
+#art2{
+    display: flex;
+}
+
+#art2 section{
+    background-color: #447AB9;
+    display: block;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+}
+
+#art2 img{
+    /* height: auto; */
+    display: block;
+    margin: auto;
+    width: 120px;
+}
+
+#art2 h2{
+    text-align: center;
+    margin: 0px;
+}
+
+#art2 p{
+    padding: 30px;
+
+}
+
+/* article3 */
+
+#art3{
+    display: flex;
+    flex-shrink: 2;
+}
+
+#art3 img{
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+#art3 h1{
+    margin: 0px;
+}
+
+#sect1{
+    width: 50%;
+    margin-left: 65px;
+    flex-direction: row;
+}
+
+#sect2{
+    width: 35%;
+    margin: 20px;
+    background-color: #447AB9;
+    border-radius: 10px;
+    margin-top: 70px;
+    height: 234px;
+}
+
+#sect2 p{
+    padding: 50px;
+}

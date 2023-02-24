@@ -1,0 +1,121 @@
+/* Paleta de colores: 
+    Azul -->
+    - #325886
+    - #447AB9
+    - #82A7D6
+    Amarillo -->
+    - #FEF265
+    - #FCE8A4
+    - #FEEED4 
+*/
+
+/* FUENTES */
+@font-face {
+    font-family: "Overseer";
+    src:local("Overseer"), url(../fonts/Overseer/Overseer.otf);
+}
+
+
+/* ARTICLE */
+
+h1{
+    color: #FEF265;
+    font-family: "Overseer";
+    letter-spacing: 0.2em;
+    font-size: 6em;
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    text-align: justify;
+    color: #FEEED4;
+    font-size: 1em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    padding: 30px;
+}
+
+/* SECCION1 */
+
+#section1 section {
+    padding: 70px;
+    background: #4075B5;
+    margin: 200px;
+    border-radius: 15px;
+}
+
+/* SECCION 2 */
+
+#tttt1{
+    color: #FEF265;
+    font-family: "Overseer";
+    letter-spacing: 0.2em;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+#section2{
+    display: flex;
+    /* display: flexbox; */
+    flex-shrink: 2;
+    padding-bottom: 150px;
+}
+
+
+#section2 section{
+    display: inline-flex;
+    width: 50%;
+    padding: 30px;
+}
+
+#section2 section img{
+    width: 90%;
+    display: block;
+    border-radius: 10px;
+}
+
+#section2 section p{
+    padding: 10%;
+    z-index: middle;
+    display: block;
+    color: #447AB9;
+}
+
+/* SECCION3 */
+
+#section3 section {
+    background: #4075B5;
+    border-radius: 15px;
+}
+
+#section3{
+    margin-bottom: 150px;
+}
+#section3 h1{
+    padding: 80px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+
+#art1, #art2, #art3{
+    margin: 18px;
+    padding: 40px;
+    width: 25%;
+    display: inline-block;
+}
+
+#art1 h2, #art2 h2, #art3 h2{
+    color: #FEF265;
+    font-family: "Overseer";
+    letter-spacing: 0.2em;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+

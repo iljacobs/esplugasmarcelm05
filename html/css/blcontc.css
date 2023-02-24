@@ -1,0 +1,86 @@
+#bl{
+    width: 650px;
+}
+
+article{
+    display: flex;
+}
+
+article section{
+    display: inline-flex;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 70px;
+}
+
+article section aside{
+    padding-top: 100px;
+    width: 70%;
+}
+
+article section aside h1{
+    margin: 0px;
+    text-align: left;
+}
+
+article section aside p{
+    text-shadow: 1px 1px #82a7d6;
+}
+
+article section aside ul li{
+    font-size: 1em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: #274468;
+}
+article section iframe{
+    padding-left: 50px;
+}
+
+/* FORMULARIO */
+
+#art1{
+    display: flex;
+}
+
+#art1 section{
+    width: 50%;
+    /* margin-bottom: 300px; */
+    display: block;
+    padding: 50px;
+}
+
+#art1 aside{
+    background: #4075B5;
+    border-radius: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+#art1 aside form{
+    display: block;
+    margin: auto;
+    height: 100%;
+    padding: 50px;
+}
+#art1 section img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#art1 label{
+    font-size: 1s.5em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: #FCE8A4;
+}
+
+#art1 input{
+    border-radius: 8px;
+    border: solid 1px #FCE8A4;
+}
+
+#art1 textarea{
+    display: block;
+    border-radius: 8px;
+}
